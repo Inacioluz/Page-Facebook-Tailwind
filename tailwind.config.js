@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors: {
         'blue-facebook': '#1877F2',
-        'gray-facebook' : '#F0f2f5'
+        'gray-facebook' : '#F0f2f5',
+        'green-facebook': '#36A420'
       },
       spacing: {
         '580': '580px',
