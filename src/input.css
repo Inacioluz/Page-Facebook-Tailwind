@@ -3,7 +3,34 @@
 @tailwind utilities;
 
 @layer components {
+    .body-conatiner {
+        @apply w-screen h-screen bg-gray-facebook flex items-center justify-center
+    }
+    .text-facebook {
+        @apply w-580 pr-8
+    }
+    .h1-facebook {
+        @apply text-blue-facebook font-bold text-5xl
+    }
+    .h2-facebook {
+        @apply text-3xl font-black pt-1
+    }
+    .forms {
+        @apply bg-white p-4 w-380 rounded-md flex justify-center items-center flex-col shadow-lg
+    }
     .input-facebook{
         @apply border-gray-300 rounded-sm border w-full h-14 mb-2.5 pl-2;
+    }
+    .button-facebook-enter {
+        @apply h-12 w-full bg-blue-facebook rounded-md text-white
+    }
+    .forms-a {
+        @apply text-blue-facebook cursor-pointer mt-4
+    }
+    .froms-hr {
+        @apply w-full m-4 border-gray-300 border-1
+    }
+    .button-new-account {
+        @apply h-12 bg-green-facebook rounded-md text-white px-4
     }
 }
