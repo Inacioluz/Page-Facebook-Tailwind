@@ -27,8 +27,8 @@
     .forms-a {
         @apply text-blue-facebook cursor-pointer mt-4
     }
-    .froms-hr {
-        @apply w-full m-4 border-gray-300 border-1
+    .forms-linha {
+        @apply  w-full m-4 border-gray-300 border-1
     }
     .button-new-account {
         @apply h-12 bg-green-facebook rounded-md text-white px-4

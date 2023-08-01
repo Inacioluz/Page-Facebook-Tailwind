@@ -617,3 +617,16 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+
+.m-4 {
+  margin: 1rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
